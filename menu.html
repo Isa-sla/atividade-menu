@@ -1,17 +1,66 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inicial</title>
-    <link rel="stylesheet" media="all" href="menu.css"/>
-</head>
-<body>
-    <div id="navbar">
-        <a href="#home">Início</a>
-        <a href="#news">Notícias</a>
-        <a href="#contact">Contato</a>
-    </div>
-</body>
+<!DOCTYPE HTML>
+<html lang="port-br">
+    <head>
+        <meta charset="Utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página inicial</title>
+        <link rel="stylesheet" media="all" href="menucss.css"/>
+        
+        <title>Menu</title>
+    </head>
+    
+    <body>
+        <div class="cabecalho" align="center"> 
+            <h1> Rede Social </h1>
+            <p> Simplesmente uma Rede Social </p>
+        </div>
+        <div id="navbar">
+            <a href="#home" class="active"> Início </a> 
+            <a href="#amigos"> Amigos </a> 
+            <a href="#perfil"> Seu Perfil </a>
+        </div>
+        <div class="content">
+        <fieldset style="background-color: rgb(241, 241, 241);">
+        <p>
+            <b>
+            <seta style="color: rgb(27, 27, 182);"> -> </seta>
+             Mariana Lima postou: </b> <br/><br/>
+            <div> Meu Deus, olha o que meu cachorro fez! </div> <br/><br/>
+            <img src="https://th.bing.com/th/id/R.65bd1b9767cf96505a4d05dfbc505a18?rik=6omr9%2fwY78NQyg&riu=http%3a%2f%2fwww.pawbuzz.com%2fwp-content%2fuploads%2fsites%2f551%2f2020%2f07%2fDestory2-1024x1024.jpg&ehk=CAEWDE15ozY9SVhUWP7nzLOrryYHlhubSmFTozX91Ww%3d&risl=&pid=ImgRaw&r=0" width="300px" height="300px" />
+            <br/> <br/>
+            <fieldset style="background-color: rgb(223, 222, 222);">
+               <b style="color: rgb(43, 83, 97);"> Comentários </b>
+                <hr>
+                <seta style="color: rgb(27, 27, 182)"> -> </seta>
+                Lilian Martins: Meu Deus kkkkkkkkkkkkkk <br/>
+                <seta style="color:  rgb(27, 27, 182)"> -> </seta>
+                Caio D'Angelo: Meu cachorro fez isso ontem, demorou muito tempo para limpar kkkkk <br/> 
+                <form style="margin-top: 15px;"> 
+                    <label for="comentario"> Escreva um Comentário: </label>
+                    <input type="text" name="comentario"/>
+                </form>
+            </fieldset>
+        </p>
+        </fieldset>
+        <br/>
+        <fieldset style="background-color: rgb(241, 241, 241);">
+            <p >
+                <seta style="color:  rgb(27, 27, 182)"> -> </seta>
+                Júlia Pontes postou: <br/><br/>
+                Socorro, tenho muita coisa pra fazeeeeeeer, não consigo nem respirar. <br/><br/>
+                <Fieldset style="background-color: rgb(223, 222, 222);">
+                    <b style="color: rgb(43, 83, 97);"> Comentários </b>
+                     <hr>
+                    <form style="margin-top: 15px;"> 
+                        <label for="comentario"> Escreva um Comentário: </label>
+                        <input type="text" name="comentario"/>
+                    </form>
+                </Fieldset>
+               
+            </p>
+        </fieldset>
+        </div>
+    </body>
+    <script src="menu.js"></script>
 </html>
