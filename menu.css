@@ -1,4 +1,32 @@
 #navbar{
     overflow: hidden;
-    background-color: rgb(107, 21, 168);
+    background-color:  lightslategray;
+}
+#navbar a{
+    float: left;
+    display: block;
+    color : rgb(70, 69, 69);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#navbar a:hover {
+    background-color: #969696 ;
+    color: rgb(255, 255, 255);
+}
+#navbar a.active {
+    background-color: #3988f0;
+    color: white;
+}
+.content{
+    padding: 16px
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
 }
